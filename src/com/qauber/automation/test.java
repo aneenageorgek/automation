@@ -11,7 +11,6 @@ public class test {
          WebDriver driver=new ChromeDriver();
          driver.get("https://www.facebook.com");
          driver.findElement(By.id("u_0_9")).sendKeys("aneena");
-         driver.findElement(By.id("u_0_b")).sendKeys("george");
 
     }
 }
